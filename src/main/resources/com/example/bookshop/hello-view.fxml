@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="622.0" style="-fx-background-color: CCFDFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookshop.HelloController">
+   <children>
+      <Label fx:id="authorizField" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="1.0" layoutX="175.0" layoutY="27.0" prefHeight="74.0" prefWidth="255.0" text="Authorization">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginTextField" layoutX="95.0" layoutY="134.0" prefHeight="45.0" prefWidth="418.0" />
+      <PasswordField fx:id="passWordField" layoutX="94.0" layoutY="228.0" prefHeight="45.0" prefWidth="418.0" />
+      <Button fx:id="regButton" layoutX="254.0" layoutY="373.0" mnemonicParsing="false" onAction="#switchToRegistration" text="Registration">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="signButton" layoutX="263.0" layoutY="308.0" mnemonicParsing="false" text="Sign In">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

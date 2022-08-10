@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="regPanel" prefHeight="494.0" prefWidth="615.0" style="-fx-background-color: DAFCFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookshop.RegistrationController">
+   <children>
+      <Text fx:id="regText" layoutX="159.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registation" wrappingWidth="194.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="regMailText" layoutX="14.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail" wrappingWidth="66.38671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="regMailTextField" layoutX="80.0" layoutY="109.0" prefHeight="32.0" prefWidth="250.0" promptText="Enter mail">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Text fx:id="regPassText" layoutX="16.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="117.38671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="regPassTextField" layoutX="138.0" layoutY="329.0" prefHeight="32.0" prefWidth="250.0" promptText="Enter password" />
+      <Button fx:id="regRegistrButton" layoutX="11.0" layoutY="441.0" mnemonicParsing="false" text="Registration" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="regRePassText" layoutX="12.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Repeat password" wrappingWidth="194.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="regRePassTextField" layoutX="208.0" layoutY="380.0" prefHeight="32.0" prefWidth="250.0" />
+      <Text fx:id="regLoginText" layoutX="14.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="66.38671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="regLoginTextField" layoutX="79.0" layoutY="164.0" prefHeight="32.0" prefWidth="250.0" promptText="Enter login">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Text fx:id="regUserText" layoutX="11.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User name" wrappingWidth="126.38671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="regUserTextField" layoutX="131.0" layoutY="279.0" prefHeight="32.0" prefWidth="250.0" promptText="Enter user name" />
+      <Text fx:id="regCountryTExt" layoutX="14.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country" wrappingWidth="87.38671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="regcountryComboBox" layoutX="109.0" layoutY="228.0" prefHeight="39.0" prefWidth="226.0" />
+      <Button fx:id="regReturnToSign" layoutX="491.0" layoutY="441.0" mnemonicParsing="false" onAction="#switchToSignIn" text="Back to sign in" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

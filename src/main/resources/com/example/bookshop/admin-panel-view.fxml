@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookshop.AdminPanelController">
+   <children>
+      <Button fx:id="adminButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToBookAdding" prefHeight="78.0" prefWidth="211.0" text="Admin panel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="bookStoreButton" layoutX="402.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToBookShop" prefHeight="78.0" prefWidth="211.0" text="Book store">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="288.0" layoutY="360.0" mnemonicParsing="false" onAction="#buttonToBack" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="411.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookshop.ClientBookStoreController">
+   <children>
+      <TableView fx:id="bookStoreTable" layoutY="69.0" prefHeight="342.0" prefWidth="865.0">
+         <columns>
+            <TableColumn id="bookAuthorTab" fx:id="bookAuthorTable" prefWidth="146.0" text="Book author" />
+            <TableColumn id="bookNameTab" fx:id="bookNameTable" prefWidth="149.0" text="Book name" />
+            <TableColumn id="bookGenerTab" fx:id="bookGenerTable" prefWidth="97.0" text="Book gener" />
+            <TableColumn id="bookPriceTab" fx:id="bookPriceTable" prefWidth="122.0" text="Book price" />
+            <TableColumn id="numbersOfBookTab" fx:id="bookNuberStoreTable" prefWidth="137.0" text="Numbers of book" />
+         </columns>
+      </TableView>
+      <Button fx:id="backButtonClient" layoutX="14.0" layoutY="30.0" mnemonicParsing="false" text="Back" />
+      <Text fontSmoothingType="LCD" layoutX="352.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book store" wrappingWidth="160.13671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Button fx:id="shoppingCart" layoutX="760.0" layoutY="30.0" mnemonicParsing="false" text="Shopping cart" />
+   </children>
+</AnchorPane>
